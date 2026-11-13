@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Makes the website responsive on phones, laptops and tablets-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--This sets the title displayed on the web browser-->
+    <title>Culture & Traditions | Discover Brunei</title>
+      <!--An external link that Links to style.css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Website header and Navigation Bar-->
+    <header>
+     <a href="culture.html" class="logo">DISCOVER BRUNEI</a>
+     <!--Hamburger menu wrapbox-->
+      <input type="checkbox" id="menu-checkbox">
+      <label for="menu-checkbox" class="menu-toggle">≣</label>
+       <!--Navigation links to other website pages-->
+      <!--source: W3Schools - Html Navigation-->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="discover.html">About Brunei</a>
+    <a href="attractions.html">Attractions</a>
+    <a href="culture.html">Culture & Traditions</a>
+    <a href="heritage.html">Our Heritage</a>
+    <a href="visit.html">Plan Your Visit</a>
+    <a href="contact.html">Event & Contact Information</a>
+  </nav>
+    </header>
+    <!--The main website content-->
+    <!--The main element contains the primary content of the homepage-->
+       <main class="culture-main">
+        <!--Culture Hero Section-->
+        <section class="culture-hero">
+          <div class="culture-hero-content">
+            <p class="culture-eyebrow">DISCOVER BRUNEI</p>
+            <h1>Culture &amp; Traditions</h1>
+            <h2>Heritage in Every Detail</h2>
+            <p>Discover the traditions, clothing and craftsmanship that reflect
+              Brunei's rich cultural identity.
+            </p>
+            <a href="#traditional-clothing" class="culture-button">Explore Our Heritage</a>
+          </div>
+        </section>
+        <!--Traditional Clothing-->
+        <section id="traditional-clothing" class="clothing-section">
+          <div class="clothing-image">
+            <img src="images/traditional-clothing.jpg" alt="Traditional Brunei Malay clothing">
+          </div>
+          <div class="clothing-content">
+            <p class="section-number">01 - TRADITIONAL ATTIRE</p>
+            <h2>Traditional Clothing</h2>
+            <h3>Grace in Every Generation</h3>
+            <p>Traditional clothing represents an important part
+              of Brunei's cultural identity. Baju Cara melayu and Baju Kurung are commonly worn
+              during formal events and celebrations, often complemented by songket.
+            </p>
+            <div class="clothing-details">
+              <article class="clothing-item">
+                <h4>Baju Melayu</h4>
+                <p>Traditional attire are commonly worn by men.</p>
+
+              </article>
+              <article class="clothing-item">
+                <h4>Baju Kurung</h4>
+                <p>Traditional attire that is commonly worn by women.</p>
+              </article>
+         
+              <article class="clothing-item">
+                <h4>Songket</h4>
+                <p>Decorative women fabric with intricate patterns.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!--Arts and Handicrafts-->
+       <section id="arts-handicrafts" class="craft-section">
+        <div class="craft-info">
+          <p class="section-number">02 - LOCAL CRAFTMANSHIP</p>
+          <h2>Arts &amp; Handicrafts</h2>
+          <h3>Crafted by Heritage</h3>
+          <p>Brunei's traditional arts and handicrafts showcase the creativity and skills
+            of the local bruneian artisans. These crafts help preserve traditional knowledge 
+            and cultural heritage.
+          </p>
+          <br>
+        </div>
+        <div class="craft-grid">
+          <article class="craft-card">
+            <img src="images/songket-weaving.jpg" alt="Traditional songket weaving">
+            <div class="craft-card-content">
+              <h3>Songket Weaving</h3>
+              <p>Intricate patterns and detailed weaving create a distinctive traditional textiles.</p>
+            </div>
+          </article>
+          <article class="craft-card">
+            <img src="images/silverwork.jpg" alt="Traditional Silver craftmanship">
+            <div class="craft-card-content">
+              <h3>Silverwork</h3>
+              <p>Decorative silver objects reflect the skill of traditional metal craftmanship.</p>
+            </div>
+          </article>
+          <article class="craft-card">
+            <img src="images/basket-weaving.jpg" alt="Traditional woven basket">
+            <div class="craft-card-content">
+              <h3>Basket &amp; Mat Weaving</h3>
+              <p>Handwoven items demonstrates the practical skills passed down by generations.</p>
+            </div>
+          </article>
+        </div>
+       </section>
+<!--Closing Banner for culture-->
+<section class="culture-closing">
+  <div class="closing-content">
+    <p class="culture-eyebrow">THE BEAUTY OF BRUNEI</p>
+    <h2>Heritage That lives Through Generations</h2>
+    <p>Discover the traditions, craftmanships and the cultural identity what makes
+      Brunei stand out and special.
+    </p>
+    <a href="attractions.html" class="culture-button">Discover More of Brunei</a>
+  </div>
+</section>
+    </main>
+
+    <!--Website footer containing the website name and copyright information-->
+    <footer>
+        <p>Discover Brunei | Brunei Darussalam</p>
+        <p>&copy; 2026 Discover Brunei. All rights reserved</p>
+    </footer>
+    <!--Back to top button for easier page navigation-->
+    <button id="backToTop" class="back-to-top" aria-label="Back to Top">↑</button>
+    <!--Connects the external JS file for interactive features.-->
+    <script src="script.js"></script>
+</body>
+</html>

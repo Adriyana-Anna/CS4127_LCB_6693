@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--Makes the website responsive on phones, laptops and tablets-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--This sets the title displayed on the web browser-->
+  <title>Discover Brunei | Home </title>
+  <!--An external link that Links to style.css-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Website header and Navigation Bar-->
+  <header>
+    <a href="index.html" class="logo">DISCOVER BRUNEI</a>
+    <!--Hamburger menu wrapbox-->
+      <input type="checkbox" id="menu-checkbox">
+      <label for="menu-checkbox" class="menu-toggle">≣</label>
+    
+    <!--Navigation links to other website pages-->
+    <!--source: W3Schools - Html Navigation-->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="discover.html">About Brunei</a>
+    <a href="attractions.html">Attractions</a>
+    <a href="culture.html">Culture & Traditions</a>
+    <a href="heritage.html">Our Heritage</a>
+    <a href="visit.html">Plan Your Visit</a>
+    <a href="contact.html">Event & Contact Information</a>
+  </nav>
+  </header>
+<!--The main website content-->
+ <!--The main element contains the primary content of the homepage-->
+  <main> 
+<!-- 1.Hero banner-->
+<section id="home" class="hero">
+  <!--Contains the main heading, description and nav buttons-->
+  <div class="hero-content">
+    <!--Small introductory text above the main heading-->
+    <p class="eyebrow">THE ABODE OF PEACE</p>
+    <!--Main heading-->
+    <h1>Discover Brunei</h1>
+    <!--Short description-->
+    <p> A journey into a timeless heritage, breathtaking nature and the warmth of Bruneian hospitality.</p>
+    <!--Button that redirect visitors to the attraction and visit page-->
+    <!--Source: W3Schools Html Links-->
+    <a href="attractions.html" class="btn">Explore Brunei</a>
+    <a href="visit.html" class="btn-outline">Plan Your Visit</a>
+  </div>
+</section>
+<!--2. Why Visit Brunei-->
+<!--Displays the main experiences and attractions-->
+<section id="highlights" class="section">
+  <!--Introductory label for the featured highlights-->
+  <p class="eyebrow">A WORLD TO DISCOVER</p>
+  <h2>Experience Brunei</h2>
+  <p>Discover a destination where cultural traditions, peaceful surroundings and natural beauty come together.</p>
+  <!--Building for editorial cards to be displayed under here-->
+  <!--Source: W3Schools Css Grid layout-->
+<div class="card-grid">
+  <!--Card 1: Culture-->
+  <!--Source: MDN Web Docs Html Article element-->
+  <article class="card">
+    <img src="images/kampong-ayer.jpg" alt="Traditional Water Village (Kampong Ayer)">
+    <div class="card-content">
+      <p class="eyebrow">HERITAGE</p>
+      <h3> Brunei's Living Culture</h3>
+      <p>Discover Brunei's tradition and experience the charm of Kampong Ayer, the historic "Water Village".</p>
+      <a href="discover.html" class="text-link">Discover Our Heritage </a>
+    </div>
+  </article>
+<!--Card 2: Nature -->
+<article class="card">
+  <img src="images/ulu-temburong.jpg" alt="Lush Tropical rainforest in Ulu Temburong">
+  <div class="card-content">
+    <p class="eyebrow">NATURE</p>
+    <h3>Into the Rainforest!</h3>
+    <p>Explore our Tropical Rainforests, rich biodiversity and the natural beauty of Borneo!</p>
+    <a href="attractions.html" class="text-link">Explore Nature</a>
+  </div>
+</article>
+
+<!--Card 3: Architecture-->
+<article class="card">
+  <img src="images/mosque.jpg" alt="Omar Ali Saifuddien Mosque in Bandar Seri Begawan">
+  <div class="card-content">
+    <p class="eyebrow">ARCHITECTURE</p>
+    <h3>Meeting The Timeless Landmark</h3>
+    <p>Come Admire the iconic mosque and its beautiful architecture in the heart of Brunei's Capital (BSB)</p>
+    <a href="attractions.html" class="text-link">View Attractions</a>
+  </div>
+</article>
+
+<!--Card 4: Local Cuisine-->
+<article class="card">
+  <img src="images/brunei-cuisine.jpg" alt="Traditional Bruneian Food">
+  <div class="card-content">
+    <p class="eyebrow">LOCAL FLAVOURS</p>
+    <h3>A Taste of Bruneians</h3>
+    <p>Discover the local favurites, traditional dishes and delicious flavours by Bruneian culture.</p>
+    <a href="discover.html" class="text-link">Explore Local Culture</a>
+  </div>
+</article>
+</div>
+</section>
+
+<!--Introduction to Brunei goes under here-->
+<section id="about" class="section">
+  <p class="eyebrow">THE HEART OF BORNEO</p>
+  <h2>Welcome to Brunei Darussalam!</h2>
+  <p>Brunei is located on the northern coast of Borneo, it is an islamic country, peaceful destination known for its welcoming culture.</p>
+  <a href="discover.html" class="text-link">Discover Our Heritage</a>
+
+
+<!--Featuring the attractions below-->
+<a href="attractions.html" class="btn">View All Attractions</a>
+</section>
+
+<!--Travel call to action-->
+<section id="visit" class="section">
+  <h2>Your Brunei Journey Starts Here</h2>
+  <p>Prepare your trip with practical travel information and helpful visitor tips!</p>
+  <a href="visit.html" class="btn">Plan Your Visit</a>
+</section>
+  </main>
+<!--Website footer containing the website name and copyright information-->
+  <footer>
+    <p>Discover Brunei | Brunei Darussalam</p>
+    <p>&copy; 2026 Discover Brunei. All rights reserved</p>
+  </footer>
+  <!--Back to top button for easier page navigation-->
+  <button id="backToTop" class="back-to-top" aria-label="Back to Top">↑</button>
+  <!--Connects the external JS file for interactive features.-->
+  <script src="script.js"></script>
+</body>
+</html>
